@@ -1,0 +1,36 @@
+supplier_id,supplier_name,country,reliability_score,lead_time_days,annual_supply_volume
+0,Molina and Sons,USA,61.0,50,133393
+1,"Goodwin, Burns and Potter",Vietnam,65.58,28,359785
+2,"Harvey, Turner and Davis",USA,83.62,19,20622
+3,Kelly-Dixon,USA,68.75,79,320631
+4,"Barnes, Smith and Weeks",China,82.45,84,224949
+5,Fernandez-Cook,Vietnam,77.97,50,429374
+6,French-Walker,China,90.35,35,371026
+7,Melendez-Parker,Japan,73.61,34,117886
+8,Burns Group,Germany,64.09,63,55707
+9,Johnson Group,Germany,93.9,48,428167
+10,"Wood, Sanchez and Dudley",China,89.19,83,70444
+11,Jackson LLC,Japan,63.15,52,439846
+12,Smith PLC,Germany,83.09,23,29025
+13,"Cohen, Martin and Lester",Vietnam,90.92,25,453432
+14,"Aguilar, Hicks and Martin",Vietnam,94.66,63,150738
+15,"Fox, Graham and Hunt",South Korea,85.43,61,90277
+16,Santiago-Taylor,Germany,74.21,49,372955
+17,Moore-Gonzalez,USA,84.37,36,285043
+18,Greer and Sons,Vietnam,66.54,63,146530
+19,Watson-Marshall,Vietnam,87.38,22,125087
+20,Walker LLC,China,92.2,66,145373
+21,Valenzuela LLC,USA,68.44,87,464469
+22,Cruz Ltd,Germany,68.51,78,212425
+23,Snyder and Sons,South Korea,65.71,32,134303
+24,Gutierrez and Sons,Mexico,89.88,69,475717
+25,"Murphy, Smith and Baker",Japan,74.48,32,272138
+26,Allen LLC,South Korea,63.64,21,456465
+27,Bryan-Davila,USA,66.11,35,420277
+28,Richards LLC,Japan,83.86,64,205078
+29,"Navarro, Spencer and Smith",South Korea,81.16,85,456296
+30,Silva-Morris,China,87.21,29,362412
+31,Thomas-Tucker,Mexico,90.74,58,63485
+32,"Bauer, Baird and Cole",Mexico,77.39,73,6701
+33,"Wright, Rodriguez and Mack",Mexico,98.88,37,271171
+34,"Hampton, Warren and Jackson",USA,94.82,53,446277

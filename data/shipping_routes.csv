@@ -1,0 +1,76 @@
+route_id,origin_warehouse,destination_region,average_delivery_time,shipping_cost_per_unit,carbon_footprint_kg
+0,New York,Asia,14,28.49,348.05
+1,Dallas,Asia,15,5.91,287.91
+2,New York,Europe,12,16.34,129.7
+3,Chicago,South America,19,5.15,479.72
+4,San Francisco,South America,13,5.07,104.78
+5,New York,Asia,16,16.3,404.25
+6,Atlanta,South America,14,9.32,241.21
+7,Atlanta,Europe,13,7.06,174.71
+8,Miami,Europe,20,20.0,121.51
+9,Los Angeles,North America,6,30.43,77.13
+10,Seattle,North America,9,26.02,272.14
+11,New York,North America,20,24.86,76.5
+12,Atlanta,Europe,14,9.36,135.66
+13,Seattle,North America,11,33.94,446.0
+14,Atlanta,North America,13,46.56,309.77
+15,New York,Asia,20,38.59,469.75
+16,Atlanta,North America,18,36.0,275.13
+17,Los Angeles,South America,9,40.81,444.86
+18,New York,North America,19,31.23,463.16
+19,Dallas,North America,16,36.34,467.98
+20,Miami,Europe,3,38.25,490.55
+21,Los Angeles,Asia,9,12.74,86.91
+22,Los Angeles,Europe,9,42.23,106.85
+23,Dallas,South America,4,34.77,120.56
+24,Chicago,North America,6,37.66,364.79
+25,San Francisco,Asia,16,11.93,41.0
+26,Chicago,South America,15,5.34,193.52
+27,Chicago,South America,6,8.82,87.19
+28,New York,Europe,16,9.88,122.34
+29,Chicago,Asia,19,37.12,443.08
+30,San Francisco,South America,8,42.29,301.19
+31,Atlanta,South America,16,12.75,419.98
+32,Miami,Asia,13,16.71,114.93
+33,Los Angeles,Europe,15,18.3,388.55
+34,Miami,North America,6,40.85,72.12
+35,Los Angeles,Europe,20,47.73,65.45
+36,Miami,South America,7,7.38,98.1
+37,Atlanta,Europe,10,45.86,259.12
+38,New York,Europe,20,29.85,176.16
+39,New York,Asia,11,19.94,76.73
+40,Chicago,North America,16,27.07,420.57
+41,Chicago,Europe,5,28.31,316.17
+42,New York,South America,20,8.61,382.47
+43,Miami,Europe,11,49.67,175.46
+44,Los Angeles,North America,3,39.89,348.53
+45,Los Angeles,North America,13,12.42,373.68
+46,New York,North America,9,26.64,404.63
+47,Miami,Asia,4,40.44,376.75
+48,Los Angeles,Europe,14,19.08,339.37
+49,Dallas,Asia,11,12.17,277.43
+50,Chicago,South America,12,27.1,456.02
+51,New York,Europe,8,42.1,151.6
+52,Los Angeles,Asia,15,26.1,258.5
+53,Miami,North America,4,31.96,11.37
+54,Dallas,Europe,15,20.54,177.33
+55,San Francisco,Asia,19,11.75,195.08
+56,New York,Europe,16,11.72,142.01
+57,Atlanta,Asia,14,34.76,189.44
+58,Chicago,South America,4,29.86,29.29
+59,Miami,North America,16,14.36,210.99
+60,Miami,Asia,3,39.76,391.52
+61,Chicago,Europe,5,7.73,402.98
+62,New York,South America,11,42.57,70.89
+63,Los Angeles,Asia,11,48.3,325.45
+64,Miami,South America,10,28.2,195.26
+65,Atlanta,North America,15,17.05,85.88
+66,New York,Europe,15,32.86,154.62
+67,Chicago,Asia,16,18.39,20.15
+68,Seattle,Europe,14,37.5,424.07
+69,Seattle,Europe,6,18.93,391.36
+70,New York,South America,4,41.99,152.9
+71,Seattle,Europe,14,47.58,193.1
+72,Dallas,North America,8,23.15,122.25
+73,San Francisco,Asia,20,35.74,153.98
+74,Los Angeles,North America,18,21.98,211.48
