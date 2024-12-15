@@ -60,7 +60,7 @@ Advanced SQL techniques—including aggregations, joins, subqueries, Common Tabl
 ## 🚀 Getting Started
 
 ### Prerequisites
-- SQL Database (SQLite/PostgreSQL)
+- SQL Database (MySQL)
 - Python 3.8+
 - Pandas
 - Faker Library
