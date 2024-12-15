@@ -3,7 +3,9 @@ SQL analysis of e-commerce data to gain insights into sales, inventory, supplier
 
 ## 🚀 Project Overview
 
-This comprehensive SQL-driven data analytics project provides deep insights into the supply chain and sales performance of an electronics e-commerce retailer. The project demonstrates advanced data analysis techniques using synthetic, realistic business data.
+This project leverages SQL to conduct a thorough analysis of sales, supply chain, and inventory performance for an electronics e-commerce retailer. By using realistic, synthetic business data, the analysis covers a variety of key metrics such as top-selling products, supplier performance, inventory turnover, and shipping efficiency.
+
+Advanced SQL techniques—including aggregations, joins, subqueries, Common Table Expressions (CTEs), and window functions—are applied to solve real-world business problems and uncover actionable insights that can optimize sales, improve inventory management, and strengthen supplier relationships.
 
 ## 📊 Project Structure
 
