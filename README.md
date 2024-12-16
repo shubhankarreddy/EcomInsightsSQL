@@ -47,6 +47,8 @@ Advanced SQL techniques—including aggregations, joins, subqueries, Common Tabl
 - `/sql_queries/`: Comprehensive SQL analysis scripts
 - `/notebooks/`: Jupyter notebooks with data exploration
 - `/docs/`: Project documentation and reports
+- - `/screenshots/`
+
 
 ## 🌟 Key Challenges Covered
 
