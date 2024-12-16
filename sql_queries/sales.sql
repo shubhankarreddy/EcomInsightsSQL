@@ -1,4 +1,4 @@
--- top selling prodcut
+-- top selling product
 
 SELECT
     p.product_name,
@@ -7,6 +7,15 @@ FROM sales s
 JOIN products p ON s.product_id = p.product_id
 GROUP BY p.product_name
 ORDER BY total_revenue DESC;
+
+-- Total sales by category
+
+SELECT p.category,
+       SUM(s.total_sale_amount) AS total_sales
+FROM products p
+INNEr JOIN sales s on p.product_id = s.product_id
+GROUP BY p.category
+ORDER BY total_sales DESC;
 
 -- total sales by year
 
@@ -114,3 +123,26 @@ FROM sales s
 JOIN products p ON s.product_id = p.product_id
 GROUP BY p.category
 ORDER BY profit_mgn_pct DESC;
+
+
+
+
+-- under performing products ( on the basis that product have high stock level but low sales)
+
+SELECT p.product_name,
+       p.category,
+       sum(sa.quantity_sold) AS qty_sold,
+       sum(sa.total_sale_amount) AS total_sales,
+       iy.current_stock,
+       iy.reorder_level
+FROM products p
+INNER JOIN sales sa ON p.product_id = sa.product_id
+INNER JOIN inventory iy ON p.product_id = iy.product_id
+GROUP BY
+    p.product_name, p.category, iy.current_stock, iy.reorder_level
+HAVING
+    (sum(sa.quantity_sold) < 4 OR sum(sa.total_sale_amount) < 6000) -- avg qty sold = 5 and avg_sale = 7040
+AND
+    iy.current_stock > iy.reorder_level
+ORDER BY
+    total_sales ASC , qty_sold ASC;

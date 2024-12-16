@@ -54,8 +54,7 @@ SELECT
         WHEN (SUM(sa.quantity_sold) / AVG((iy.current_stock + iy.reorder_level) / 2)) >= 0.5 THEN 'Medium'
         ELSE 'Low'
     END AS inventory_turnover_grade
-FROM
-    products p
+FROM products p
 JOIN
     sales sa ON p.product_id = sa.product_id
 JOIN
