@@ -1,9 +1,9 @@
--- listing all suppliers
+-- listing suppliers
+
 
 SELECT
-    sp.supplier_id,
-    sp.supplier_name,
-    sp.country,
-    sp.annual_supply_volume as supply_vol
-from Suppliers sp
-ORDER BY supply_vol DESC ;
+    sp.country AS supp_country,
+    SUM(sp.annual_supply_volume) AS total_supply_volume
+FROM Suppliers sp
+GROUP BY sp.country
+ORDER BY total_supply_volume DESC;

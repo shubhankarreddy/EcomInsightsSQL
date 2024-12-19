@@ -5,4 +5,4 @@ SELECT p.category,
 FROM products p
 INNEr JOIN sales s on p.product_id = s.product_id
 GROUP BY p.category
-ORDER BY total_sales DESC;
+ORDER BY total_sales  ;
